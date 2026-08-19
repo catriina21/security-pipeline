@@ -16,22 +16,26 @@ Pipeline ini mengombinasikan berbagai *tools* analisis keamanan industri yang di
 
 ---
 
-###  Cara Penggunaan di Laptop Mentor / Evaluator
+###  Cara Penggunaan di melalui WSL/Ubuntu
 
 #### 1. Clone Repositori
 Buka terminal WSL / Ubuntu, lalu unduh repositori ini:
-```bash
-git clone [https://github.com/catriina21/security-pipeline.git](https://github.com/catriina21/security-pipeline.git)
+```
+git clone git clone https://github.com/catriina21/security-pipeline.git
+```
+
+Masuk ke Folder Proyek::
+```
 cd security-pipeline
+```
 
 ### 2. Instalasi Dependensi Otomatis (Cukup 1x di awal)
 Eksekusi skrip setup.sh untuk mengunduh seluruh utilitas pendukung secara otomatis:
-Bash
+```
 chmod +x setup.sh local_scan.sh
 ./setup.sh
-
+```
 #### 3. Jalankan Pemindaian Keamanan
 Jalankan pipeline dengan memasukkan URL target dan mode kedalaman audit (quick / full):
-Bash
-./local_scan.sh [https://bekasikota.go.id](https://bekasikota.go.id) quick
- 
+```
+./local_scan.sh https://bekasikota.go.id quick
