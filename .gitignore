@@ -1,0 +1,3 @@
+security-reports/raw_logs/*
+security-reports/SECURITY-AUDIT-REPORT.html
+*.log
