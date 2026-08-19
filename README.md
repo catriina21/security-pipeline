@@ -24,14 +24,14 @@ Buka terminal WSL / Ubuntu, lalu unduh repositori ini:
 git clone [https://github.com/catriina21/security-pipeline.git](https://github.com/catriina21/security-pipeline.git)
 cd security-pipeline
 
-## 2. Instalasi Dependensi Otomatis (Cukup 1x di awal)
+### 2. Instalasi Dependensi Otomatis (Cukup 1x di awal)
 Eksekusi skrip setup.sh untuk mengunduh seluruh utilitas pendukung secara otomatis:
-
 Bash
 chmod +x setup.sh local_scan.sh
 ./setup.sh
-3. Jalankan Pemindaian Keamanan
-Jalankan pipeline dengan memasukkan URL target dan mode kedalaman audit (quick / full):
 
+#### 3. Jalankan Pemindaian Keamanan
+Jalankan pipeline dengan memasukkan URL target dan mode kedalaman audit (quick / full):
 Bash
 ./local_scan.sh [https://bekasikota.go.id](https://bekasikota.go.id) quick
+ 
